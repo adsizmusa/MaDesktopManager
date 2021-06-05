@@ -117,17 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="rdp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rdp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Remote_Desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Remote_Desktop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="import" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\import.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="export_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\export_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAF04OgD///8AooaIO6iPkGmehYZainFzPWNMTh0aDw8GYT4/AAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABhOTsA////AL2cnoDTs7X117m7+da6vO3NsrPVvqOlq6aN
+        j2x2YGEmAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAdU1QAFYuMAOngINjr4iLtcWlp93y3d7/9dXX/+fE
+        xv/Wt7n+wqWn0n1iZDEAAAAAAAAAAAAAAAAAAAAAAAAAAJFmaACPYmYV1rOz1MXBsvvQuq/068fH/+vH
+        y//LpqvepYGFk6aBhWZ6WlwSAAAAAAAAAAABAQEAAAAAASMbGA80KSUYfV1hNNy1ruSsnFb/vZVA/+6c
+        VP/vq3j/6rOU+tmwoOKwoJG5k3N2TQAAAAA6LioALCIfCXdfV3WVd23Go4Z72KuOidjhtKn64Ycy/9x8
+        G//cfRz/34Ad/+SGJv/okTf/5rGD/7OTl4EAAAAAUUA6AE09Nxeef3PStpSH/8ChlP/HqaP/5rem/96D
+        K//bfR3/3H8g/92EJv/fiSz/4Iss/+atfP2vkpdw/9zDAD0rJh9kSUBpi2tg1qeEd/+3mI3/yKun/+m2
+        oP/cgCT/234f/96FKP/ikDP/5Zg9/+edQf/nuI/5qIyTX2FSSjGqkoXGw6eZ/rmZjf+rhnn/qIN2/72e
+        mv/rtJb/234f/92CI//hjjH/5pxB/+qoT//tr1f/6MGe9Z+FjU+WgXWJ7tnH//rq2//w4db/6t3W/8qy
+        qP/Jqqf/7raW/96FLf/fiS7/5JU5/+mkSv/us1r/8r1n/+fHqfCVfIVBjndsa+bQvvr45tb/8eHV///4
+        8f/z6uT/2MG8/+XDvv/nu6v96ruk+ey+n/7vw5z/8smb//XPmv/kybjoiXB3MlQ/ORi/qJm779rJ/+7a
+        zf/26d7/6tjO//Tm2//hzsT/zLWv7bSYm2fKqbBdza2zddGztojVuLmVyK2udHhbXQ+3nI8AhW9mMMSq
+        nMzmzLz/69XG/+7azP/u2cv/9eLS/9nGu+2ejYYwopCIAAAAAAAAAAAAAAAAAAAAAAAAAAAACQIBAL+T
+        gwCbdGdLwJ+R1du+rvvnzbz/9N3K//jizv/WwLHNhnRwFo99dgAAAAAAAAAAAAAAAAAAAAAAAAAAAImJ
+        iQByjpcDs6aigLSVioSsjH9cxKucotS7qszRt6XBs5yNTP///wBMOjUAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACQkJAAnJycCrq7u3KvrKshoqChAC4dGwRfR0ETWkM9DgAAAAEZDg0AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/gcAAP4AAAD8AAAA/AAAAOAAAADAAAAAwAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAMA/
+        AACAfwAAiH8AAA==
+</value>
   </data>
 </root>

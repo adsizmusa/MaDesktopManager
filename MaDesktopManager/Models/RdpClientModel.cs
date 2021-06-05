@@ -8,6 +8,7 @@ namespace MaDesktopManager.Models
 {
    public class RdpClientModel
     {
+        public int id { get; set; }
         public string ServerName { get; set; }
         public string ServerIpAddress { get; set; }
         public string ServerUserName { get; set; }
