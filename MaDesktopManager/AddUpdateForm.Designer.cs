@@ -35,13 +35,13 @@ namespace MaDesktopManager
             this.tb_server_ip_address = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.tb_password = new System.Windows.Forms.TextBox();
-            this.btn_add_server = new System.Windows.Forms.Button();
             this.tb_user_name = new System.Windows.Forms.TextBox();
             this.tb_server_name = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.btn_add_server = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,24 +92,6 @@ namespace MaDesktopManager
             this.tb_password.Name = "tb_password";
             this.tb_password.Size = new System.Drawing.Size(122, 20);
             this.tb_password.TabIndex = 5;
-            // 
-            // btn_add_server
-            // 
-            this.btn_add_server.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_add_server.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_add_server.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_add_server.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_add_server.ImageIndex = 0;
-            this.btn_add_server.ImageList = this.ımageList1;
-            this.btn_add_server.Location = new System.Drawing.Point(409, 25);
-            this.btn_add_server.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btn_add_server.Name = "btn_add_server";
-            this.btn_add_server.Size = new System.Drawing.Size(155, 68);
-            this.btn_add_server.TabIndex = 0;
-            this.btn_add_server.Text = "Add Server";
-            this.btn_add_server.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_add_server.UseVisualStyleBackColor = true;
-            this.btn_add_server.Click += new System.EventHandler(this.btn_add_server_Click);
             // 
             // tb_user_name
             // 
@@ -165,6 +147,24 @@ namespace MaDesktopManager
             this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.ımageList1.Images.SetKeyName(0, "Remote_Desktop.png");
             // 
+            // btn_add_server
+            // 
+            this.btn_add_server.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_add_server.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_add_server.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_add_server.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_add_server.ImageIndex = 0;
+            this.btn_add_server.ImageList = this.ımageList1;
+            this.btn_add_server.Location = new System.Drawing.Point(409, 25);
+            this.btn_add_server.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_add_server.Name = "btn_add_server";
+            this.btn_add_server.Size = new System.Drawing.Size(155, 68);
+            this.btn_add_server.TabIndex = 0;
+            this.btn_add_server.Text = "Add Server";
+            this.btn_add_server.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_add_server.UseVisualStyleBackColor = true;
+            this.btn_add_server.Click += new System.EventHandler(this.btn_add_server_Click);
+            // 
             // AddUpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +176,7 @@ namespace MaDesktopManager
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AddUpdateForm";
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Server";
             this.Load += new System.EventHandler(this.AddUpdateForm_Load);
