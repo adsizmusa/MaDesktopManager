@@ -29,6 +29,7 @@ namespace MaDesktopManager
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddUpdateForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tb_server_ip_address = new System.Windows.Forms.TextBox();
@@ -40,6 +41,7 @@ namespace MaDesktopManager
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +60,7 @@ namespace MaDesktopManager
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(532, 106);
+            this.groupBox1.Size = new System.Drawing.Size(596, 106);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Server";
@@ -96,12 +98,16 @@ namespace MaDesktopManager
             this.btn_add_server.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_add_server.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_add_server.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_add_server.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_add_server.ImageIndex = 0;
+            this.btn_add_server.ImageList = this.ımageList1;
             this.btn_add_server.Location = new System.Drawing.Point(409, 25);
             this.btn_add_server.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_add_server.Name = "btn_add_server";
-            this.btn_add_server.Size = new System.Drawing.Size(104, 68);
+            this.btn_add_server.Size = new System.Drawing.Size(155, 68);
             this.btn_add_server.TabIndex = 0;
             this.btn_add_server.Text = "Add Server";
+            this.btn_add_server.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_add_server.UseVisualStyleBackColor = true;
             this.btn_add_server.Click += new System.EventHandler(this.btn_add_server_Click);
             // 
@@ -153,11 +159,17 @@ namespace MaDesktopManager
             this.label1.TabIndex = 0;
             this.label1.Text = "Server Name";
             // 
+            // ımageList1
+            // 
+            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList1.Images.SetKeyName(0, "Remote_Desktop.png");
+            // 
             // AddUpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 135);
+            this.ClientSize = new System.Drawing.Size(616, 170);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -185,5 +197,6 @@ namespace MaDesktopManager
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ImageList ımageList1;
     }
 }

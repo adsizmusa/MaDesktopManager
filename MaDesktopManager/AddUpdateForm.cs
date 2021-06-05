@@ -30,6 +30,7 @@ namespace MaDesktopManager
                 Text = "Udpate Server Information";
                 title = "Update";
                 btn_add_server.Text = title;
+                groupBox1.Text = title +" Server";
             }
 
         }

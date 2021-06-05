@@ -81,9 +81,11 @@ namespace MaDesktopManager
             server_listView.Items.Clear();
 
             server_listView.View = View.Details;
+            server_listView.SmallImageList = ımageList1;
             foreach (var item in servers)
             {
                 var row = new ListViewItem(item.ServerName);
+                row.ImageKey = ımageList1.Images.Keys[0];
                 row.SubItems.Add(item.ServerIpAddress);
                 row.SubItems.Add(item.ServerUserName);
 
@@ -105,7 +107,13 @@ namespace MaDesktopManager
 
         private void addServer_Click(object sender, EventArgs e)
         {
-            AddUpdateForm addUpdateForm = new AddUpdateForm(new Models.RdpClientModel(),(int)ServerSaveTypeEnum.Add);
+
+            addServerEvent();
+        }
+
+       private void addServerEvent()
+        {
+            AddUpdateForm addUpdateForm = new AddUpdateForm(new Models.RdpClientModel(), (int)ServerSaveTypeEnum.Add);
             addUpdateForm.ShowDialog();
             int id = 1;
             if (servers.Count() > 0)
@@ -115,11 +123,14 @@ namespace MaDesktopManager
 
             }
             var model = addUpdateForm.model;
-            model.id = id;
-            _servers.Add(model);
+            if(model.ServerIpAddress !=null)
+            {
+                model.id = id;
+                _servers.Add(model);
 
-            LoadData();
-
+                LoadData();
+            }
+  
         }
 
         private void exportToolStripMenuItem_Click(object sender, EventArgs e)
@@ -170,6 +181,18 @@ namespace MaDesktopManager
             setListView();
             fileServices.setSetting(_servers);
 
+        }
+
+        private void addServerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            addServerEvent();
+
+        }
+
+        private void abloutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox aboutBox = new AboutBox();
+            aboutBox.ShowDialog();
         }
     }
 }

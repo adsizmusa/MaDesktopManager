@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MaDesktopManager")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This app is free for Rdp remote control. Author : adsizmusa@hotmail.com")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MaDesktopManager")]
+[assembly: AssemblyCompany("Musa Adsız Software Developer")]
+[assembly: AssemblyProduct("Musa Adsız")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -19,3 +19,4 @@ C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\Nan
 C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.csproj.CopyComplete
 C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.AddUpdateForm.resources
+C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.AboutBox.resources
