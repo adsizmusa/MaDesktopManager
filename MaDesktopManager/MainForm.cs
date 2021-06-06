@@ -67,12 +67,12 @@ namespace MaDesktopManager
         }
 
 
-        private void connectRdp()
-        {
-            var IpAdress = "172.16.34.245";
-            var userName = "Administrator";
-            var PasswordSet = "Arge24server";
-        }
+        //private void connectRdp()
+        //{
+        //    var IpAdress = "172.16.34.245";
+        //    var userName = "Administrator";
+        //    var PasswordSet = "Arge24server";
+        //}
 
 
 
@@ -113,7 +113,7 @@ namespace MaDesktopManager
 
        private void addServerEvent()
         {
-            AddUpdateForm addUpdateForm = new AddUpdateForm(new Models.RdpClientModel(), (int)ServerSaveTypeEnum.Add);
+            ServerAddForm addUpdateForm = new ServerAddForm(new Models.RdpClientModel(), (int)ServerSaveTypeEnum.Add);
             addUpdateForm.ShowDialog();
             int id = 1;
             if (servers.Count() > 0)
@@ -145,7 +145,7 @@ namespace MaDesktopManager
 
         private void update_context_menu_Click(object sender, EventArgs e)
         {
-            AddUpdateForm addUpdateForm = new AddUpdateForm(selectedRdp,(int)ServerSaveTypeEnum.Update);
+            ServerAddForm addUpdateForm = new ServerAddForm(selectedRdp,(int)ServerSaveTypeEnum.Update);
             addUpdateForm.ShowDialog();
 
             _servers.Where(s => s.id == selectedRdp.id).First().ServerIpAddress = addUpdateForm.model.ServerIpAddress;
@@ -172,8 +172,15 @@ namespace MaDesktopManager
 
         private void delte_context_menu_Click(object sender, EventArgs e)
         {
-            _servers = servers.Where(s => s.id != selectedRdp.id).ToList();
-            LoadData();
+
+            var messageBox = MessageBox.Show("Do you want to remove this server from list", "Server Remove",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+            if(messageBox == DialogResult.Yes)
+            {
+                _servers = servers.Where(s => s.id != selectedRdp.id).ToList();
+                LoadData();
+            }
+
+
         }
 
         private void LoadData()

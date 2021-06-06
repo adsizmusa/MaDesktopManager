@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaDesktopManager", "MaDesktopManager\MaDesktopManager.csproj", "{109AC695-AE99-4CFA-A81D-7AAB6C876853}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupMaDesktopManager", "SetupMaDesktopManager\SetupMaDesktopManager.vdproj", "{345501F3-ED5F-43A5-A6CA-2B846530643C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{109AC695-AE99-4CFA-A81D-7AAB6C876853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{109AC695-AE99-4CFA-A81D-7AAB6C876853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{109AC695-AE99-4CFA-A81D-7AAB6C876853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345501F3-ED5F-43A5-A6CA-2B846530643C}.Debug|Any CPU.ActiveCfg = Debug
+		{345501F3-ED5F-43A5-A6CA-2B846530643C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
