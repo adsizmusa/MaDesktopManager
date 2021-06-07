@@ -49,6 +49,7 @@ namespace MaDesktopManager
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abloutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.search_tb = new System.Windows.Forms.ToolStripTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.context_menu.SuspendLayout();
@@ -198,18 +199,19 @@ namespace MaDesktopManager
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.helpToolStripMenuItem,
+            this.search_tb});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1064, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1064, 31);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 27);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // helpToolStripMenuItem
@@ -217,15 +219,25 @@ namespace MaDesktopManager
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.abloutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 27);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // abloutToolStripMenuItem
             // 
             this.abloutToolStripMenuItem.Name = "abloutToolStripMenuItem";
-            this.abloutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.abloutToolStripMenuItem.Size = new System.Drawing.Size(133, 26);
             this.abloutToolStripMenuItem.Text = "&About";
             this.abloutToolStripMenuItem.Click += new System.EventHandler(this.abloutToolStripMenuItem_Click);
+            // 
+            // search_tb
+            // 
+            this.search_tb.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.search_tb.Name = "search_tb";
+            this.search_tb.Size = new System.Drawing.Size(100, 27);
+            this.search_tb.Tag = "Search";
+            this.search_tb.Text = "Ara";
+            this.search_tb.ToolTipText = "Serarch";
+            this.search_tb.TextChanged += new System.EventHandler(this.search_tb_TextChanged);
             // 
             // MainForm
             // 
@@ -274,5 +286,6 @@ namespace MaDesktopManager
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem abloutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripTextBox search_tb;
     }
 }

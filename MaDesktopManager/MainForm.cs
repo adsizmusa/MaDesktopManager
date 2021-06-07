@@ -20,6 +20,7 @@ namespace MaDesktopManager
 
         RdpClientModel selectedRdp;
         FileServices _fileServices;
+        string serach_text = "";
         public FileServices fileServices
         {
             get
@@ -82,7 +83,7 @@ namespace MaDesktopManager
 
             server_listView.View = View.Details;
             server_listView.SmallImageList = ımageList1;
-            foreach (var item in servers)
+            foreach (var item in servers.Where(s => s.ServerName.Contains(serach_text) || s.ServerIpAddress.Contains(serach_text) || s.ServerUserName.Contains(serach_text)))
             {
                 var row = new ListViewItem(item.ServerName);
                 row.ImageKey = ımageList1.Images.Keys[0];
@@ -111,7 +112,7 @@ namespace MaDesktopManager
             addServerEvent();
         }
 
-       private void addServerEvent()
+        private void addServerEvent()
         {
             ServerAddForm addUpdateForm = new ServerAddForm(new Models.RdpClientModel(), (int)ServerSaveTypeEnum.Add);
             addUpdateForm.ShowDialog();
@@ -123,14 +124,14 @@ namespace MaDesktopManager
 
             }
             var model = addUpdateForm.model;
-            if(model.ServerIpAddress !=null)
+            if (model.ServerIpAddress != null)
             {
                 model.id = id;
                 _servers.Add(model);
 
                 LoadData();
             }
-  
+
         }
 
         private void exportToolStripMenuItem_Click(object sender, EventArgs e)
@@ -145,7 +146,7 @@ namespace MaDesktopManager
 
         private void update_context_menu_Click(object sender, EventArgs e)
         {
-            ServerAddForm addUpdateForm = new ServerAddForm(selectedRdp,(int)ServerSaveTypeEnum.Update);
+            ServerAddForm addUpdateForm = new ServerAddForm(selectedRdp, (int)ServerSaveTypeEnum.Update);
             addUpdateForm.ShowDialog();
 
             _servers.Where(s => s.id == selectedRdp.id).First().ServerIpAddress = addUpdateForm.model.ServerIpAddress;
@@ -173,8 +174,8 @@ namespace MaDesktopManager
         private void delte_context_menu_Click(object sender, EventArgs e)
         {
 
-            var messageBox = MessageBox.Show("Do you want to remove this server from list", "Server Remove",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
-            if(messageBox == DialogResult.Yes)
+            var messageBox = MessageBox.Show("Do you want to remove this server from list", "Server Remove", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (messageBox == DialogResult.Yes)
             {
                 _servers = servers.Where(s => s.id != selectedRdp.id).ToList();
                 LoadData();
@@ -200,6 +201,13 @@ namespace MaDesktopManager
         {
             AboutBox aboutBox = new AboutBox();
             aboutBox.ShowDialog();
+        }
+
+        private void search_tb_TextChanged(object sender, EventArgs e)
+        {
+            serach_text = search_tb.Text.Trim();
+            LoadData();
+
         }
     }
 }
