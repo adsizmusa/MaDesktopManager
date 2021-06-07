@@ -83,7 +83,14 @@ namespace MaDesktopManager
 
             server_listView.View = View.Details;
             server_listView.SmallImageList = ımageList1;
-            foreach (var item in servers.Where(s => s.ServerName.Contains(serach_text) || s.ServerIpAddress.Contains(serach_text) || s.ServerUserName.Contains(serach_text)))
+
+            var data = servers.Where(s =>
+            s.ServerName.ToLower().Contains(serach_text.ToLower()) 
+            ||
+            s.ServerIpAddress.ToLower().Contains(serach_text.ToLower()) 
+            ||
+            s.ServerUserName.ToLower().Contains(serach_text.ToLower()));
+            foreach (var item in data)
             {
                 var row = new ListViewItem(item.ServerName);
                 row.ImageKey = ımageList1.Images.Keys[0];

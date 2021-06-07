@@ -233,9 +233,9 @@ namespace MaDesktopManager
             // 
             this.search_tb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.search_tb.Name = "search_tb";
-            this.search_tb.Size = new System.Drawing.Size(100, 27);
+            this.search_tb.Size = new System.Drawing.Size(150, 27);
             this.search_tb.Tag = "Search";
-            this.search_tb.Text = "Ara";
+            this.search_tb.Text = "Search";
             this.search_tb.ToolTipText = "Serarch";
             this.search_tb.TextChanged += new System.EventHandler(this.search_tb_TextChanged);
             // 
