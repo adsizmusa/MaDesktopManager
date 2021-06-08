@@ -77,6 +77,7 @@
     <Compile Include="ServerAddForm.Designer.cs">
       <DependentUpon>ServerAddForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Services\EncryptString.cs" />
     <Compile Include="Services\FileServices.cs" />
     <Compile Include="Services\RdpServices.cs" />
     <EmbeddedResource Include="AboutBox.resx">

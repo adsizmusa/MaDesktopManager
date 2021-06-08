@@ -15,3 +15,20 @@ C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaD
 C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.exe
 C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.pdb
 C:\Users\Musa ADSIZ\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.ServerAddForm.resources
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\MaDesktopManager.exe.config
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\MaDesktopManager.exe
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\MaDesktopManager.pdb
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\Nancy.dll
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\Nancy.xml
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.csproj.AssemblyReference.cache
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.AboutBox.resources
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.MainForm.resources
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.Properties.Resources.resources
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.ServerAddForm.resources
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.csproj.GenerateResource.cache
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.csproj.CoreCompileInputs.cache
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.csproj.CopyComplete
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.exe
+C:\Users\Umut\source\repos\MaDesktopManager\MaDesktopManager\obj\Debug\MaDesktopManager.pdb
