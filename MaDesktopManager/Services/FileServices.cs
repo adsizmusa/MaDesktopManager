@@ -26,13 +26,8 @@ namespace MaDesktopManager.Services
 
         public string getPassword()
         {
-            var password =
-               (
-                   from nic in NetworkInterface.GetAllNetworkInterfaces()
-                   where nic.OperationalStatus == OperationalStatus.Up
-                   select nic.GetPhysicalAddress().ToString()
-               ).FirstOrDefault();
-            return password +"Desjsdjs8457e92" + Environment.MachineName;
+            var password = "Desjsdjs8457e92";
+            return password;
         }
         public void CreateDirectory()
         {

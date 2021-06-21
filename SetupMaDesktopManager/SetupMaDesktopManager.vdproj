@@ -15,25 +15,25 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_07732B946BC234CFEAD757D8E316B269"
+        "OwnerKey" = "8:_FDA2195205BB48ADBE0123648998C8B0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_07949A38A5F24EB3AA1EAAE232FC322E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3EBB2206D863F09F5E6D62EA30D9A76A"
         "OwnerKey" = "8:_FDA2195205BB48ADBE0123648998C8B0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6B8F309561174821B933F07E1826EDCA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_84D8616B15E0EAA2499CAB2DABF443D8"
-        "OwnerKey" = "8:_FDA2195205BB48ADBE0123648998C8B0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_985A799AF9244B7E04E0FB359EF2C7C7"
+        "MsmKey" = "8:_A8F6E9A01349CD9783F93A7793F3DF9F"
         "OwnerKey" = "8:_FDA2195205BB48ADBE0123648998C8B0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -52,13 +52,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_985A799AF9244B7E04E0FB359EF2C7C7"
+        "OwnerKey" = "8:_A8F6E9A01349CD9783F93A7793F3DF9F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_84D8616B15E0EAA2499CAB2DABF443D8"
+        "OwnerKey" = "8:_07732B946BC234CFEAD757D8E316B269"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -124,6 +124,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -154,6 +162,57 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_07732B946BC234CFEAD757D8E316B269"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Nancy, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_07732B946BC234CFEAD757D8E316B269"
+                    {
+                    "Name" = "8:Nancy.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Nancy.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_984019001E44487DA7BD911064A2632D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_07949A38A5F24EB3AA1EAAE232FC322E"
+            {
+            "SourcePath" = "8:..\\MaDesktopManager\\app.ico"
+            "TargetName" = "8:app.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_984019001E44487DA7BD911064A2632D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3EBB2206D863F09F5E6D62EA30D9A76A"
             {
             "AssemblyRegister" = "3:1"
@@ -185,65 +244,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B8F309561174821B933F07E1826EDCA"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\app.ico"
-            "TargetName" = "8:app.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_984019001E44487DA7BD911064A2632D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_84D8616B15E0EAA2499CAB2DABF443D8"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Nancy, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_84D8616B15E0EAA2499CAB2DABF443D8"
-                    {
-                    "Name" = "8:Nancy.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Nancy.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_984019001E44487DA7BD911064A2632D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_985A799AF9244B7E04E0FB359EF2C7C7"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A8F6E9A01349CD9783F93A7793F3DF9F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_985A799AF9244B7E04E0FB359EF2C7C7"
+                    "_A8F6E9A01349CD9783F93A7793F3DF9F"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -335,7 +343,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MaDesktopManager"
         "ProductCode" = "8:{574506DD-CCCF-4F1F-9358-014DD0EFCA62}"
-        "PackageCode" = "8:{276FCA4A-C7B1-4294-9B0A-8F38593D9643}"
+        "PackageCode" = "8:{DC9D4694-464E-48AE-83C6-4299685817FE}"
         "UpgradeCode" = "8:{133DB80A-6963-4D02-863C-04C5D2F464EF}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -352,7 +360,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:App is for RDP Manager"
         "ARPURLINFOABOUT" = "8:adsizmusa@hotmail.com"
-        "ARPPRODUCTICON" = "8:_6B8F309561174821B933F07E1826EDCA"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -466,7 +474,7 @@
             "Target" = "8:_FDA2195205BB48ADBE0123648998C8B0"
             "Folder" = "8:_AE51D20B8B694B108D8749876D0A9A9C"
             "WorkingFolder" = "8:_984019001E44487DA7BD911064A2632D"
-            "Icon" = "8:_6B8F309561174821B933F07E1826EDCA"
+            "Icon" = "8:_07949A38A5F24EB3AA1EAAE232FC322E"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CD243B7D625D4EA098F5AF2B07F54264"
@@ -480,7 +488,7 @@
             "Target" = "8:_FDA2195205BB48ADBE0123648998C8B0"
             "Folder" = "8:_B87942262F434D7AA3F272018D3BD276"
             "WorkingFolder" = "8:_984019001E44487DA7BD911064A2632D"
-            "Icon" = "8:_6B8F309561174821B933F07E1826EDCA"
+            "Icon" = "8:_07949A38A5F24EB3AA1EAAE232FC322E"
             "Feature" = "8:"
             }
         }
